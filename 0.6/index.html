@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Cocos Creator | ScrollExample</title>
+
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="full-screen" content="yes"/>
+  <meta name="screen-orientation" content="portrait"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+  <link rel="stylesheet" type="text/css" href="style-desktop.css"/>
+</head>
+<body>
+<h1 class="header">Scroll Example with wheelPrecision = -0.6</h1>
+
+<div id="GameDiv" style="width:400px; height: 600px; float:left; margin-right: 60px">
+  <canvas id="GameCanvas" width="400" height="600"></canvas>
+  <div id="splash">
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+  </div>
+</div>
+
+<div id="nativeHTML" style="width:370px; height: 600px; overflow-y:scroll; text-align:left">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula aliquet nulla, quis porta mauris luctus et. In hac habitasse platea dictumst. Phasellus sapien nunc, elementum at ornare vitae, tempus at ex. Quisque pharetra enim dignissim semper ullamcorper. Donec quam risus, fermentum et ullamcorper ut, eleifend a orci. Nullam tincidunt consectetur massa, sit amet lacinia est suscipit et. Maecenas porttitor maximus lobortis. Donec lobortis, nunc a pulvinar rhoncus, velit dolor viverra ante, in tristique dui ligula ac nunc. In bibendum augue vitae iaculis mollis.<br/>
+  <br/>
+  Donec pulvinar libero quis sagittis semper. Pellentesque massa ex, commodo vitae velit eu, egestas faucibus ligula. Praesent sit amet velit sapien. Quisque accumsan odio eget mattis molestie. Fusce consectetur mauris non ex interdum finibus. Mauris vulputate, dui nec facilisis consequat, nibh eros facilisis ex, sed bibendum risus arcu eu nulla. Phasellus at finibus magna. Morbi malesuada purus nec massa lacinia venenatis. Suspendisse ante massa, venenatis ac imperdiet ac, malesuada nec sem. Fusce quis vehicula diam. Pellentesque volutpat ornare euismod.<br/>
+  <br/>
+  Nullam pellentesque leo id tempus malesuada. Nulla congue tortor id mi rutrum gravida. Pellentesque imperdiet imperdiet neque, ut vehicula enim sodales congue. In nisl arcu, vulputate a sapien eget, sagittis eleifend urna. In feugiat efficitur orci ut pellentesque. Cras mi mi, ullamcorper nec est a, interdum viverra mauris. In nisi magna, pharetra a turpis vel, porta semper sem. Mauris sit amet commodo leo, vel imperdiet eros. Maecenas ac lorem sed ligula mollis eleifend eu in leo. In at dapibus massa. Donec condimentum felis nibh, viverra ultricies nisi suscipit faucibus. Nulla facilisi. Vestibulum eu consequat ligula. Sed id tempor eros. Sed luctus augue magna, a feugiat turpis viverra eget.<br/>
+  <br/>
+  Suspendisse sagittis risus ut mauris laoreet pharetra. Morbi sagittis enim purus, quis pulvinar odio porttitor id. Integer in mi justo. In vitae bibendum velit, sit amet blandit magna. Sed vehicula, ligula eu molestie tempus, ligula orci placerat nibh, a lacinia urna est vitae metus. Fusce eget tristique est. Fusce eleifend sem sit amet dapibus semper.<br/>
+  <br/>
+  Maecenas volutpat porta enim. Duis sit amet pretium orci. Mauris cursus dapibus nisl ut ornare. Aliquam iaculis sagittis interdum. Nulla facilisi. Pellentesque quis tristique lorem, nec tristique justo. Suspendisse potenti. Pellentesque arcu felis, volutpat in tempus in, gravida eget metus. Morbi sagittis est a vulputate dapibus. Integer ut metus sit amet est faucibus aliquam. Cras tincidunt velit rhoncus, cursus felis tincidunt, auctor odio. Pellentesque posuere, purus eget porttitor sollicitudin, libero nisl tincidunt justo, quis sollicitudin elit dolor et ligula. Praesent posuere tellus non quam tincidunt accumsan.
+</div>
+
+<p class="footer">Created with <a href="http://cocos.com/cocoscreator" title="cocos creator">Cocos Creator</a></p>
+
+<script src="src/settings.js" charset="utf-8"></script>
+<script src="main.js" charset="utf-8"></script>
+</body>
+</html>
